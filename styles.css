@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: rgba(13, 32, 26, 0.966);
+    background-color: rgb(32, 44, 41);
 }
 
 #texto {
-    background-color: rgb(41, 55, 58);
+    background-color: rgb(35, 51, 47);
     width: 90%;
     margin: auto;
     color: white;
@@ -38,7 +38,7 @@ p {
 }
 
 h1 {
-    background-color: darkslategrey;
+    background-color: rgb(69, 114, 109);
     line-height: 50px;
 }
 
