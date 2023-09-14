@@ -8,12 +8,27 @@ body {
     background-color: rgb(42, 44, 44);
 }
 
+h1 {
+    background-color: rgb(39, 39, 41);
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+h2 {
+    background-color: rgb(43, 43, 49);
+    text-indent: 10px;
+
+}
+
+ul {
+    padding-top: 20px;
+}
+
 #texto {
-    background-color: rgb(54, 56, 59);
+    background-color: #36383b;
     width: 90%;
     margin: auto;
     color: white;
-    padding: 0px;
     text-align: justify;
     font-family: sans-serif
 }
@@ -21,31 +36,57 @@ body {
 #texto li {
     color: white;
     margin-left: 20px;
+    padding-bottom: 10px;
 
-}
-
-#texto h1,
-h2,
-p {
-    text-indent: 10px;
-    text-align: justify;
 }
 
 #intro {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
+
 #indice {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
-h1 {
-    background-color: rgb(39, 39, 41);
-    line-height: 50px;
+#biografia {
+    padding-bottom: 60px;
 }
 
-h2 {
-    background-color: rgb(43, 43, 49);
+#quemsou {
+    margin-right: 50%;
+
+
 }
+
+.bio1 {
+    padding-top: 20px;
+}
+
+#textinho {
+    overflow-wrap: break-word;
+    float: right;
+    text-align: justify;
+    width: 70%;
+    margin-right: 40px;
+}
+
+#qualidades {
+    float: right;
+    width: 50%;
+    padding-bottom: 40px;
+
+}
+
+#qualidades ul {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+#qualidades p {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
 
 a {
     color: white;
