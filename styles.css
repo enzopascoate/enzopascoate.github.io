@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: rgba(13, 32, 26, 0.966);
 }
 
 #texto {
-    background-color: rgb(41, 51, 53);
-    width: 85%;
+    background-color: rgb(41, 55, 58);
+    width: 90%;
     margin: auto;
     color: white;
     padding: 0px;
