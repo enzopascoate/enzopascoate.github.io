@@ -5,16 +5,17 @@
 }
 
 body {
-    background-color: rgb(32, 44, 41);
+    background-color: rgb(42, 44, 44);
 }
 
 #texto {
-    background-color: rgb(35, 51, 47);
+    background-color: rgb(54, 56, 59);
     width: 90%;
     margin: auto;
     color: white;
     padding: 0px;
     text-align: justify;
+    font-family: sans-serif
 }
 
 #texto li {
@@ -38,12 +39,12 @@ p {
 }
 
 h1 {
-    background-color: rgb(69, 114, 109);
+    background-color: rgb(39, 39, 41);
     line-height: 50px;
 }
 
 h2 {
-    background-color: darkslategrey;
+    background-color: rgb(43, 43, 49);
 }
 
 a {
