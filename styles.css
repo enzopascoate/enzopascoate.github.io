@@ -8,32 +8,46 @@ body {
     background-color: rgb(42, 44, 44);
 }
 
+header{
+    position:fixed;
+    z-index: 2;
+    width: 100%;
+    border-top: rgb(39, 39, 41);
+    top: 0;
+    left: 0;
+}
+
 h1 {
     background-color: rgb(39, 39, 41);
     line-height: 50px;
     text-indent: 10px;
+    padding-bottom: 10px;
 }
 
 h2 {
     background-color: rgb(43, 43, 49);
     text-indent: 10px;
+    margin-bottom: 20px;
 
 }
 
-ul {
-    padding-top: 20px;
+a {
+    color: white;
 }
 
-#texto {
-    background-color: #36383b;
+#pagina {
+    background-color: #414345;
+    border: 5px solid  rgb(39, 39, 41);
+    min-width: 90%;
     width: 90%;
-    margin: auto;
+    min-width: 90%;
+    margin-left: 5%;
     color: white;
     text-align: justify;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
-#texto li {
+#pagina li {
     color: white;
     margin-left: 20px;
     padding-bottom: 10px;
@@ -42,6 +56,14 @@ ul {
 
 #intro {
     padding-bottom: 60px;
+    margin-top: 60px;
+}
+
+.cabecalho {
+    padding-bottom: 5px;
+    padding-top: 0px;
+    background-color: rgb(39, 39, 41);
+   
 }
 
 #indice {
@@ -49,49 +71,61 @@ ul {
 }
 
 #biografia {
-    padding-bottom: 60px;
+
+
+  
+}
+
+#biografia li {
+    font-weight: bold;
 }
 
 #quemsou {
-    margin-right: 50%;
-
+    display: inline-block;
+    min-height: 340px;
+    min-width: 500px;
 
 }
+
 
 .bio1 {
-    padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+ 
 }
 
-#textinho {
-    overflow-wrap: break-word;
-    float: right;
+#textinhobio {
+    word-break: break-word;
     text-align: justify;
-    width: 70%;
-    margin-right: 40px;
+    margin-left: 240px;
+    width: 240px;
+    display: inline-block;
+}
+
+#selfie {
+    margin-left:20px;
 }
 
 #qualidades {
-    float: right;
-    width: 50%;
-    padding-bottom: 40px;
+
+    border-left: 4px solid rgb(43, 43, 49);
+    display: inline-block;
+    min-height: 340px;
+    width: 1150px;
+    min-width: 800px;
+    position: absolute;
+   
 
 }
 
 #qualidades ul {
     padding-right: 40px;
     padding-left: 20px;
+    min-height: 50px;
 }
 
 #qualidades p {
     padding-left: 20px;
     padding-bottom: 10px;
-}
-
-
-a {
-    color: white;
-}
-
-#biografia li {
-    font-weight: bold;
 }
